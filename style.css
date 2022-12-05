@@ -1,0 +1,168 @@
+/*vymyslena kavarna*/
+/* global */
+body{
+    font-family: 'Oxygen Mono', monospace;
+    padding:0px;
+    margin: 0px;
+    background-color: #b590773d;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    }
+
+ul{
+    margin:0;
+    padding: 0;
+    }
+
+
+/* header **/
+header{
+   background-color:#B59077;
+    color:#ffffff;
+    min-height:102px;
+    z-index:2;
+    position:fixed;
+    top: 0;
+    width:100%;
+  
+}
+header a{
+    text-decoration:none;
+    color:#ffffff;
+    
+    
+}
+header ul{
+    list-style-type: none;
+    padding-inline-start: 20px;
+    float:right;
+    margin-top:16px;
+
+    }
+header li{
+    display:inline;
+    padding-right: 20px;
+    
+   }
+#logo{
+    float:left;
+    margin: 15px 20px 26px 0;
+        }
+.highlight, a:hover{
+    color:#9CD9D9;
+    font-weight: bold;
+}
+nav a:hover{
+    font-weight:bolder;
+}
+#cart{
+size: 80%;
+}
+
+
+
+main {
+    top: 102px;
+    position: relative;
+}
+/* showcase */
+#showcase{
+    float:none;
+    width:100%;    
+    height: 428px;
+    background-image: url('img/showcaseImg.jpg');
+    position:relative;
+    
+}
+#showcaseContent{
+    float:right;
+    color:#ffffff;
+    width:500px;
+    margin-top:7%;
+    
+}
+#showcaseContent h1{
+width:60%;
+}
+#showcaseContent p{
+   text-align:justify;
+   width:70%;
+}
+
+.myButton1{    
+    background-color:#933F4E;
+    padding:5px;
+    border-radius: 20px;
+    width:50%;
+    height:43px;
+    padding-left: 20px;
+    padding-right: 9px;
+    text-align:center;
+}
+#coffee_icon{
+    padding-top:8px;
+    float:left;
+    
+}
+.myButton1 span{
+    font-size:120%;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+
+}
+
+.card-section{
+    background-color:rgba(181, 144, 119, 0.286);
+    padding:5% 0 ;
+    margin-bottom:5%;
+}   
+.card-section .card{
+    float:left;
+    width:30%;
+    margin-right:3%;
+    text-align: center;
+    color:rgba(147, 63, 78, 0.71);
+}
+.card-section a{
+    text-decoration:none;
+     
+}
+.card:hover{
+    background-color:rgba(131, 97, 75, 0.432);
+}
+ /* About Us */
+ #aboutUs{
+    background:url('./img/about_us/background.jpg');
+    width:100%;
+    height:100%;
+    margin-top:-105px;
+    z-index: 0;
+}
+#aboutUs h1{
+    color:rgba(94, 53, 39, 1);
+    }
+#aboutUs p{
+width: 600px;      
+color:rgba(70, 19, 0, 1);
+    
+}
+#aboutUs .container{
+ padding:15% 0;
+}
+/* footer */
+footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    background-color:#83614b;
+    text-align:center;
+    padding:3% 0;
+    color:#ffffffb7;
+    height:90px;
+    }
+
+   
